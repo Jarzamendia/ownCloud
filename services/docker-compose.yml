@@ -67,7 +67,7 @@ services:
         deploy:
             mode: replicated
             restart_policy:
-            condition: any
+                condition: any
 
 networks:
     proxy_net:
